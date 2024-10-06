@@ -1,0 +1,55 @@
+# User-specific files
+*.xcuserstate
+*.xcuserdata/
+
+# Build
+build/
+DerivedData/
+
+# Xcode
+*.xcworkspace/
+!default.xcworkspace/
+xcuserdata/
+*.xcodeproj/
+*.xcworkspace/
+*.xcworkspace/contents.xcworkspacedata
+*.xcscheme
+*.xcshareddata
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+*.jks
+
+# Archives
+*.xcarchive
+
+# iOS specific
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# App packaging
+*.app
+*.dSYM
+*.framework
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata
+
