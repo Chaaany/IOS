@@ -15,6 +15,7 @@
 		B5F664482CB2D15A00023F79 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B5F664472CB2D15A00023F79 /* Base */; };
 		B5F664502CB41AFC00023F79 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6644F2CB41AFC00023F79 /* MyViewController.swift */; };
 		B5F664522CB4201F00023F79 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F664512CB4201F00023F79 /* MyTableViewController.swift */; };
+		B5F664542CB6C2E000023F79 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F664532CB6C2E000023F79 /* TodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B5F664492CB2D15A00023F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5F6644F2CB41AFC00023F79 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		B5F664512CB4201F00023F79 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		B5F664532CB6C2E000023F79 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				B5F664442CB2D15A00023F79 /* Assets.xcassets */,
 				B5F664462CB2D15A00023F79 /* LaunchScreen.storyboard */,
 				B5F664492CB2D15A00023F79 /* Info.plist */,
+				B5F664532CB6C2E000023F79 /* TodoViewController.swift */,
 			);
 			path = MyUIKit;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				B5F6643C2CB2D15700023F79 /* AppDelegate.swift in Sources */,
 				B5F664502CB41AFC00023F79 /* MyViewController.swift in Sources */,
 				B5F664522CB4201F00023F79 /* MyTableViewController.swift in Sources */,
+				B5F664542CB6C2E000023F79 /* TodoViewController.swift in Sources */,
 				B5F6643E2CB2D15700023F79 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
