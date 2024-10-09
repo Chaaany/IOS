@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class MyTableViewController: UIViewController  {
 
     @IBOutlet weak var myTableView: UITableView!
@@ -22,17 +23,19 @@ class MyTableViewController: UIViewController  {
     }
 }
 
-extension MyTableViewController: UITableViewDelegate, UITableViewDataSource {
+extension MyTableViewController: UITableViewDataSource, UITableViewDelegate {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 3
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return cellData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) 
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
         cell.textLabel?.text = cellData[indexPath.row]
         return cell
     }
-
-    
 }
