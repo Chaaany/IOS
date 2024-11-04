@@ -7,75 +7,62 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		B5E12AC42CBAB8FD006A15AB /* PBXContainerItemProxy */ = {
+		B59C81162CD9096F00F21094 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5E12AAB2CBAB8F6006A15AB /* Project object */;
+			containerPortal = B59C80FD2CD9096D00F21094 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B5E12AB22CBAB8F6006A15AB;
-			remoteInfo = LMessenger;
+			remoteGlobalIDString = B59C81042CD9096D00F21094;
+			remoteInfo = Calender;
 		};
-		B5E12ACE2CBAB8FD006A15AB /* PBXContainerItemProxy */ = {
+		B59C81202CD9096F00F21094 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5E12AAB2CBAB8F6006A15AB /* Project object */;
+			containerPortal = B59C80FD2CD9096D00F21094 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B5E12AB22CBAB8F6006A15AB;
-			remoteInfo = LMessenger;
+			remoteGlobalIDString = B59C81042CD9096D00F21094;
+			remoteInfo = Calender;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B5E12AB32CBAB8F6006A15AB /* LMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5E12AC32CBAB8FD006A15AB /* LMessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5E12ACD2CBAB8FD006A15AB /* LMessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59C81052CD9096D00F21094 /* Calender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59C81152CD9096F00F21094 /* CalenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59C811F2CD9096F00F21094 /* CalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B5E12AE82CBFF224006A15AB /* Exceptions for "LMessenger" folder in "LMessenger" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = B5E12AB22CBAB8F6006A15AB /* LMessenger */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B5E12AB52CBAB8F6006A15AB /* LMessenger */ = {
+		B59C81072CD9096D00F21094 /* Calender */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B5E12AE82CBFF224006A15AB /* Exceptions for "LMessenger" folder in "LMessenger" target */,
-			);
-			path = LMessenger;
+			path = Calender;
 			sourceTree = "<group>";
 		};
-		B5E12AC62CBAB8FD006A15AB /* LMessengerTests */ = {
+		B59C81182CD9096F00F21094 /* CalenderTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LMessengerTests;
+			path = CalenderTests;
 			sourceTree = "<group>";
 		};
-		B5E12AD02CBAB8FD006A15AB /* LMessengerUITests */ = {
+		B59C81222CD9096F00F21094 /* CalenderUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LMessengerUITests;
+			path = CalenderUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B5E12AB02CBAB8F6006A15AB /* Frameworks */ = {
+		B59C81022CD9096D00F21094 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5E12AC02CBAB8FD006A15AB /* Frameworks */ = {
+		B59C81122CD9096F00F21094 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5E12ACA2CBAB8FD006A15AB /* Frameworks */ = {
+		B59C811C2CD9096F00F21094 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B5E12AAA2CBAB8F6006A15AB = {
+		B59C80FC2CD9096D00F21094 = {
 			isa = PBXGroup;
 			children = (
-				B5E12AB52CBAB8F6006A15AB /* LMessenger */,
-				B5E12AC62CBAB8FD006A15AB /* LMessengerTests */,
-				B5E12AD02CBAB8FD006A15AB /* LMessengerUITests */,
-				B5E12AB42CBAB8F6006A15AB /* Products */,
+				B59C81072CD9096D00F21094 /* Calender */,
+				B59C81182CD9096F00F21094 /* CalenderTests */,
+				B59C81222CD9096F00F21094 /* CalenderUITests */,
+				B59C81062CD9096D00F21094 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B5E12AB42CBAB8F6006A15AB /* Products */ = {
+		B59C81062CD9096D00F21094 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5E12AB32CBAB8F6006A15AB /* LMessenger.app */,
-				B5E12AC32CBAB8FD006A15AB /* LMessengerTests.xctest */,
-				B5E12ACD2CBAB8FD006A15AB /* LMessengerUITests.xctest */,
+				B59C81052CD9096D00F21094 /* Calender.app */,
+				B59C81152CD9096F00F21094 /* CalenderTests.xctest */,
+				B59C811F2CD9096F00F21094 /* CalenderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5E12AB22CBAB8F6006A15AB /* LMessenger */ = {
+		B59C81042CD9096D00F21094 /* Calender */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5E12AD72CBAB8FD006A15AB /* Build configuration list for PBXNativeTarget "LMessenger" */;
+			buildConfigurationList = B59C81292CD9096F00F21094 /* Build configuration list for PBXNativeTarget "Calender" */;
 			buildPhases = (
-				B5E12AAF2CBAB8F6006A15AB /* Sources */,
-				B5E12AB02CBAB8F6006A15AB /* Frameworks */,
-				B5E12AB12CBAB8F6006A15AB /* Resources */,
+				B59C81012CD9096D00F21094 /* Sources */,
+				B59C81022CD9096D00F21094 /* Frameworks */,
+				B59C81032CD9096D00F21094 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B5E12AB52CBAB8F6006A15AB /* LMessenger */,
+				B59C81072CD9096D00F21094 /* Calender */,
 			);
-			name = LMessenger;
+			name = Calender;
 			packageProductDependencies = (
 			);
-			productName = LMessenger;
-			productReference = B5E12AB32CBAB8F6006A15AB /* LMessenger.app */;
+			productName = Calender;
+			productReference = B59C81052CD9096D00F21094 /* Calender.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5E12AC22CBAB8FD006A15AB /* LMessengerTests */ = {
+		B59C81142CD9096F00F21094 /* CalenderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5E12ADA2CBAB8FD006A15AB /* Build configuration list for PBXNativeTarget "LMessengerTests" */;
+			buildConfigurationList = B59C812C2CD9096F00F21094 /* Build configuration list for PBXNativeTarget "CalenderTests" */;
 			buildPhases = (
-				B5E12ABF2CBAB8FD006A15AB /* Sources */,
-				B5E12AC02CBAB8FD006A15AB /* Frameworks */,
-				B5E12AC12CBAB8FD006A15AB /* Resources */,
+				B59C81112CD9096F00F21094 /* Sources */,
+				B59C81122CD9096F00F21094 /* Frameworks */,
+				B59C81132CD9096F00F21094 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5E12AC52CBAB8FD006A15AB /* PBXTargetDependency */,
+				B59C81172CD9096F00F21094 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				B5E12AC62CBAB8FD006A15AB /* LMessengerTests */,
+				B59C81182CD9096F00F21094 /* CalenderTests */,
 			);
-			name = LMessengerTests;
+			name = CalenderTests;
 			packageProductDependencies = (
 			);
-			productName = LMessengerTests;
-			productReference = B5E12AC32CBAB8FD006A15AB /* LMessengerTests.xctest */;
+			productName = CalenderTests;
+			productReference = B59C81152CD9096F00F21094 /* CalenderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B5E12ACC2CBAB8FD006A15AB /* LMessengerUITests */ = {
+		B59C811E2CD9096F00F21094 /* CalenderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5E12ADD2CBAB8FD006A15AB /* Build configuration list for PBXNativeTarget "LMessengerUITests" */;
+			buildConfigurationList = B59C812F2CD9096F00F21094 /* Build configuration list for PBXNativeTarget "CalenderUITests" */;
 			buildPhases = (
-				B5E12AC92CBAB8FD006A15AB /* Sources */,
-				B5E12ACA2CBAB8FD006A15AB /* Frameworks */,
-				B5E12ACB2CBAB8FD006A15AB /* Resources */,
+				B59C811B2CD9096F00F21094 /* Sources */,
+				B59C811C2CD9096F00F21094 /* Frameworks */,
+				B59C811D2CD9096F00F21094 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5E12ACF2CBAB8FD006A15AB /* PBXTargetDependency */,
+				B59C81212CD9096F00F21094 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				B5E12AD02CBAB8FD006A15AB /* LMessengerUITests */,
+				B59C81222CD9096F00F21094 /* CalenderUITests */,
 			);
-			name = LMessengerUITests;
+			name = CalenderUITests;
 			packageProductDependencies = (
 			);
-			productName = LMessengerUITests;
-			productReference = B5E12ACD2CBAB8FD006A15AB /* LMessengerUITests.xctest */;
+			productName = CalenderUITests;
+			productReference = B59C811F2CD9096F00F21094 /* CalenderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B5E12AAB2CBAB8F6006A15AB /* Project object */ = {
+		B59C80FD2CD9096D00F21094 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					B5E12AB22CBAB8F6006A15AB = {
+					B59C81042CD9096D00F21094 = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					B5E12AC22CBAB8FD006A15AB = {
+					B59C81142CD9096F00F21094 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = B5E12AB22CBAB8F6006A15AB;
+						TestTargetID = B59C81042CD9096D00F21094;
 					};
-					B5E12ACC2CBAB8FD006A15AB = {
+					B59C811E2CD9096F00F21094 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = B5E12AB22CBAB8F6006A15AB;
+						TestTargetID = B59C81042CD9096D00F21094;
 					};
 				};
 			};
-			buildConfigurationList = B5E12AAE2CBAB8F6006A15AB /* Build configuration list for PBXProject "LMessenger" */;
+			buildConfigurationList = B59C81002CD9096D00F21094 /* Build configuration list for PBXProject "Calender" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B5E12AAA2CBAB8F6006A15AB;
+			mainGroup = B59C80FC2CD9096D00F21094;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B5E12AB42CBAB8F6006A15AB /* Products */;
+			productRefGroup = B59C81062CD9096D00F21094 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5E12AB22CBAB8F6006A15AB /* LMessenger */,
-				B5E12AC22CBAB8FD006A15AB /* LMessengerTests */,
-				B5E12ACC2CBAB8FD006A15AB /* LMessengerUITests */,
+				B59C81042CD9096D00F21094 /* Calender */,
+				B59C81142CD9096F00F21094 /* CalenderTests */,
+				B59C811E2CD9096F00F21094 /* CalenderUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B5E12AB12CBAB8F6006A15AB /* Resources */ = {
+		B59C81032CD9096D00F21094 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5E12AC12CBAB8FD006A15AB /* Resources */ = {
+		B59C81132CD9096F00F21094 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5E12ACB2CBAB8FD006A15AB /* Resources */ = {
+		B59C811D2CD9096F00F21094 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B5E12AAF2CBAB8F6006A15AB /* Sources */ = {
+		B59C81012CD9096D00F21094 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5E12ABF2CBAB8FD006A15AB /* Sources */ = {
+		B59C81112CD9096F00F21094 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5E12AC92CBAB8FD006A15AB /* Sources */ = {
+		B59C811B2CD9096F00F21094 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B5E12AC52CBAB8FD006A15AB /* PBXTargetDependency */ = {
+		B59C81172CD9096F00F21094 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5E12AB22CBAB8F6006A15AB /* LMessenger */;
-			targetProxy = B5E12AC42CBAB8FD006A15AB /* PBXContainerItemProxy */;
+			target = B59C81042CD9096D00F21094 /* Calender */;
+			targetProxy = B59C81162CD9096F00F21094 /* PBXContainerItemProxy */;
 		};
-		B5E12ACF2CBAB8FD006A15AB /* PBXTargetDependency */ = {
+		B59C81212CD9096F00F21094 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5E12AB22CBAB8F6006A15AB /* LMessenger */;
-			targetProxy = B5E12ACE2CBAB8FD006A15AB /* PBXContainerItemProxy */;
+			target = B59C81042CD9096D00F21094 /* Calender */;
+			targetProxy = B59C81202CD9096F00F21094 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		B5E12AD52CBAB8FD006A15AB /* Debug */ = {
+		B59C81272CD9096F00F21094 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		B5E12AD62CBAB8FD006A15AB /* Release */ = {
+		B59C81282CD9096F00F21094 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -401,28 +388,27 @@
 			};
 			name = Release;
 		};
-		B5E12AD82CBAB8FD006A15AB /* Debug */ = {
+		B59C812A2CD9096F00F21094 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LMessenger/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Calender/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LMessenger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.LMessenger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaniwa.Calender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -430,28 +416,27 @@
 			};
 			name = Debug;
 		};
-		B5E12AD92CBAB8FD006A15AB /* Release */ = {
+		B59C812B2CD9096F00F21094 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LMessenger/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Calender/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LMessenger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.LMessenger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaniwa.Calender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,7 +444,7 @@
 			};
 			name = Release;
 		};
-		B5E12ADB2CBAB8FD006A15AB /* Debug */ = {
+		B59C812D2CD9096F00F21094 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,16 +453,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.LMessengerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaniwa.CalenderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMessenger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LMessenger";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calender.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calender";
 			};
 			name = Debug;
 		};
-		B5E12ADC2CBAB8FD006A15AB /* Release */ = {
+		B59C812E2CD9096F00F21094 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,87 +471,87 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.LMessengerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaniwa.CalenderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMessenger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LMessenger";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calender.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calender";
 			};
 			name = Release;
 		};
-		B5E12ADE2CBAB8FD006A15AB /* Debug */ = {
+		B59C81302CD9096F00F21094 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.LMessengerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaniwa.CalenderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LMessenger;
+				TEST_TARGET_NAME = Calender;
 			};
 			name = Debug;
 		};
-		B5E12ADF2CBAB8FD006A15AB /* Release */ = {
+		B59C81312CD9096F00F21094 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.LMessengerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaniwa.CalenderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LMessenger;
+				TEST_TARGET_NAME = Calender;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5E12AAE2CBAB8F6006A15AB /* Build configuration list for PBXProject "LMessenger" */ = {
+		B59C81002CD9096D00F21094 /* Build configuration list for PBXProject "Calender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5E12AD52CBAB8FD006A15AB /* Debug */,
-				B5E12AD62CBAB8FD006A15AB /* Release */,
+				B59C81272CD9096F00F21094 /* Debug */,
+				B59C81282CD9096F00F21094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5E12AD72CBAB8FD006A15AB /* Build configuration list for PBXNativeTarget "LMessenger" */ = {
+		B59C81292CD9096F00F21094 /* Build configuration list for PBXNativeTarget "Calender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5E12AD82CBAB8FD006A15AB /* Debug */,
-				B5E12AD92CBAB8FD006A15AB /* Release */,
+				B59C812A2CD9096F00F21094 /* Debug */,
+				B59C812B2CD9096F00F21094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5E12ADA2CBAB8FD006A15AB /* Build configuration list for PBXNativeTarget "LMessengerTests" */ = {
+		B59C812C2CD9096F00F21094 /* Build configuration list for PBXNativeTarget "CalenderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5E12ADB2CBAB8FD006A15AB /* Debug */,
-				B5E12ADC2CBAB8FD006A15AB /* Release */,
+				B59C812D2CD9096F00F21094 /* Debug */,
+				B59C812E2CD9096F00F21094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5E12ADD2CBAB8FD006A15AB /* Build configuration list for PBXNativeTarget "LMessengerUITests" */ = {
+		B59C812F2CD9096F00F21094 /* Build configuration list for PBXNativeTarget "CalenderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5E12ADE2CBAB8FD006A15AB /* Debug */,
-				B5E12ADF2CBAB8FD006A15AB /* Release */,
+				B59C81302CD9096F00F21094 /* Debug */,
+				B59C81312CD9096F00F21094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B5E12AAB2CBAB8F6006A15AB /* Project object */;
+	rootObject = B59C80FD2CD9096D00F21094 /* Project object */;
 }
