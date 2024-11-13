@@ -43,8 +43,11 @@ struct ContentView: View {
             .font(Font.title)
         
         imageView
-        
+        SliderView()
         buttonView
+        TextFieldView()
+        SecureTextView()
+        ToggleView()
     }
 }
 
@@ -85,6 +88,65 @@ var buttonView: some View {
     }
 
 }
+
+struct TextFieldView: View {
+    @State var name: String = ""
+    @State var secondName: String = ""
+    @State var email: String = ""
+    var body: some View {
+        VStack{
+            TextField("Enter your name", text: $name)
+                .font(.title)
+                .foregroundColor(.blue)
+                .background(Color.yellow)
+                .padding()
+                .frame(width: 200)
+                .border(Color.gray, width: 1)
+                .cornerRadius(5)
+            Text("My Name: \(name)")
+            
+            TextField("Enter your name", text: $secondName) { isEditing in
+                print("Is editing: \(isEditing)")
+            } onCommit: {
+                print("Commit: \(self.$secondName)")
+            }
+
+            Text("Commit: \(secondName)")
+        }
+    }
+}
+
+struct SecureTextView: View {
+    @State var password: String = ""
+    var body: some View {
+        SecureField("Enter your password", text: $password)
+            .padding()
+            .border(Color.gray, width: 1)
+            .onSubmit {
+                print(self.$password)
+            }
+        
+        
+        
+    }
+}
+
+struct ToggleView: View {
+    @State private var isOn: Bool = false
+
+    var body: some View {
+        Toggle(isOn: $isOn) {
+            Text("Enable feature")
+        }
+        .padding()
+        .background(isOn ? Color.green : Color.red)
+        .cornerRadius(10)
+        .onChange(of: isOn) {
+            print("isOn: \(isOn)")
+        }
+    }
+}
+
 
 #Preview {
     ContentView()
